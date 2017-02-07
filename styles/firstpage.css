@@ -1,0 +1,89 @@
+body {
+    background-color: gray;
+    font-family: 'Sansita', sans-serif;
+    font-size: 180%;
+}
+
+#headDiv {
+    background-color: white;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 0px;
+}
+
+#mainDiv {
+    background-color: white;
+    min-height: 100%;
+    padding: 20px 50px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+h1.header {
+    font-size: 400%;
+}
+
+nav {
+    height: 50px;
+    padding: 10px;
+    background-color: darkorange;
+}
+
+article {
+    margin-top: 80px;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    font-weight: 550;
+}
+
+nav a {
+    padding: 30px;
+}
+
+nav a:visited, nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes navMouseOver {
+    from {
+        color: white;
+    }
+    to {
+        color: black;        
+    }
+}
+
+nav a:hover, nav a:active {
+    color: black;
+    animation-name: navMouseOver;
+    animation-duration: 0.5s;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    height: 80px;
+    padding: 25px;
+}
+
+footer a {
+    padding: 30px;
+    color: white;
+}
+
+footer a:visited, footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: gray;
+}
