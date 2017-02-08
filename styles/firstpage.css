@@ -13,14 +13,25 @@ body {
 
 #mainDiv {
     background-color: white;
-    min-height: 100%;
-    padding: 20px 50px;
+    padding: 20px 100px;
     border-left: 3px solid black;
     border-right: 3px solid black;
 }
 
 h1.header {
     font-size: 400%;
+}
+
+h1.articleHead {
+    border-bottom: 3px solid black;
+    line-height: 8px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1.articleHead span {
+    background-color: white;
 }
 
 nav {
